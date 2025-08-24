@@ -1,0 +1,22 @@
+{
+    "name": "Sehat Sathi",
+    "short_name": "Sehat",
+    "start_url": "Sehat.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "iconUrl": "default-icon.png",
+    "description": "A health monitoring application for ASHA workers.",
+    "icons": [
+        {
+            "src": "default-icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "default-icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

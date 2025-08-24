@@ -1,0 +1,382 @@
+A smart wearable ECG device designed for Rural India.
+Kutch, Gujarat
+Evolution of Prototypes
+In rural India, healthcare accessibility is a significant challenge,
+with only 30% of medical professionals serving 60% of the
+population. My design project addresses this issue through an
+innovative wearable AI-powered ECG monitoring device. This
+device brings healthcare to people, making it more accessible
+and less stigmatized.
+The device features real-time ECG and activity monitoring, with
+an AI system that detects anomalies and alerts users. Its design,
+inspired by the cultural aesthetics of the Kutch region in
+Gujarat, blends seamlessly into the local culture, making it more
+acceptable and assimilating for users.
+Sustainability and cultural sensitivity were key considerations
+in the design process. The device is detachable, enhancing
+sustainability by allowing it to be shared within the community
+and protected during garment washing, aligning principles of
+sharing and extending product lifespan. Additionally, the design
+is culturally sensitive with user interactions and system flow
+carefully designed to be user-friendly and effective.
+This project demonstrates the power of design in addressing
+real-world problems, highlighting the responsibilities of
+designers to create innovative, sustainable, and ethically sound
+solutions. By integrating advanced medical technology with
+cultural sensitivity, this wearable ECG monitoring device aims
+to transform healthcare accessibility in rural India.
+Detaching mechanism and connections
+Magnets are used for wearing this device, which
+also serves as contact points for electrodes for
+ecg sensor. It is designed so that user can take
+out the device and easily wash their garment, and
+charge the device.
+Interactions
+Interactions of the device include haptics that
+can be used to alert user, button and rgb matrix
+that is used to communicate system status like
+when user needs to see doctor, or to reward
+user for goals are achieved .
+Powerful processor
+Device is powered by xiao esp32s3, a AI enabled
+board which runs a machine learning algorithm. It
+is connected to a 6axis IMU and an ECG sensor,
+and has haptic feedback.
+Real-time ECG and Activity Tracking
+With the help of ML on device, it can perform
+real time anomaly detection and live activity
+classification to alert user of any anomaly in
+advance.
+Motifs that lights up to communicate
+The motifs and colors for the light are selected
+from region, which helps to customise and locate
+the device within the context of region. This
+helps in de-stigmatising the healtcare by
+embedding the device within culture in rural
+India.
+Tejas Patel z5454574 Design studio 2 Art and Design, UNSW.
+SEHAT
+SATHI
+: Smart wearable ECG for Rural India
+Tejas Patel - z5454574 DDES9017 - Design Studio 2
+ACKNOWLEDGEMENT
+I acknowledge the Gadigal people of the Eora Nation, the traditional custodians of the land on which I studied. I
+pay my respects to their Elders past, present, and emerging, and recognise their enduring connection to this
+land.
+I would also like to acknowledge my peers along with Richu, Roshni, Saumya, Ivan, Jayneel, Shrutidhar and
+Maitri for their constant support and feedback throughout the course. I would like to thank my tutor Gerhard
+Bachfischer, lecturers: Prof Stephen Loo and Dr Patricia Flanagan, and all the support staff at UNSW. It was my
+privilege to work alongside with all these wonderful people.
+INTRODUCTION
+Cardiovascular disease (CVD) is a leading cause of mortality worldwide, and
+its impact is particularly severe in rural India. Despite having lower
+traditional risk factors, the rural population experiences disproportionately
+high rates of major cardiovascular events, with over half of these cases
+going undiagnosed (Kalra et al., 2023). This project aims to address these
+healthcare challenges by developing a smart, culturally sensitive wearable
+ECG diagnostic device tailored for the rural communities in Gujarat.
+The primary objective of this project is to provide accessible and reliable
+heart health monitoring for villagers who face significant barriers in
+accessing urban healthcare facilities. By leveraging advanced point-of-care
+(POC) technology and machine learning algorithms, the device facilitates
+early detection and diagnosis of cardiovascular issues, enabling timely
+medical intervention and improving health outcomes (Konwar & Borse,
+2020; Maini et al., 2021).
+INTRODUCTION
+This initiative aligns with the United Nations Sustainable Development
+Goal Target 3.4, which focuses on reducing premature mortality from non-
+communicable diseases through prevention, treatment, and promotion of
+mental health and well-being. By enhancing healthcare access and quality
+for underserved populations, this project not only aims to improve
+individual health outcomes but also contributes to broader public health
+goals in rural India.
+Through innovative design and technology integration, the project seeks to
+transform the management of cardiovascular health, offering a sustainable
+and culturally appropriate solution to one of the most pressing healthcare
+challenges in rural India.
+LOCATION
+For this project, the focus is on villages in Kutch region in Gujarat, where
+healthcare accessibility remains a critical challenge. Approximately 57.4% of
+Gujarat's population resides in rural areas, where healthcare infrastructure is less
+developed compared to urban centers. Despite recent improvements in
+healthcare facilities, such as a 41% increase in primary health centers, rural
+regions still face significant disparities in access to medical care.
+The project's target location is the villages in Gujarat, where the population often
+experiences barriers in accessing timely and adequate healthcare. These areas
+are characterized by limited transportation options and long distances to
+healthcare facilities, which exacerbate the challenges of managing
+cardiovascular diseases. The geographical diversity, from coastal areas to inland
+villages, requires a tailored approach to healthcare delivery, emphasizing the
+need for portable and culturally appropriate solutions like the wearable ECG
+device.
+High Emotion Intelligence Rich handicrafts culture
+Nearest hospital 70 mins away
+TARGET USER
+Primary user
+Primary user
+Needs:
+Accessible Healthcare: Villagers need a reliable and accessible means to monitor
+their heart health without having to travel long distances to urban healthcare
+centers.
+Early Detection: Early detection of cardiovascular issues is crucial to prevent
+severe health complications.
+Cultural Appropriateness: There is a stigma attached to visiting hospitals, so the
+device needs to be culturally appropriate to ensure its use.
+User Journey Map:
+Initial Awareness: Learning about the device through community health workers.
+Acquisition: Receiving the device from a local clinic or health worker.
+Daily Use: Regularly wearing the device and monitoring heart health.
+Data Review: Checking alerts and data on the device.
+Consultation: Visiting a local health worker if anomalies are detected.
+(Image source : Canva)
+Secondary user
+Dr. Meena, a community health worker who travels between
+villages to provide basic medical services. The secondary users are
+local healthcare practitioners, including community health
+workers and local doctors, who provide medical services in rural
+areas.
+Stakeholders:
+Needs and Pain Points:
+Primary Users: Villagers in rural India.
+Secondary Users: Local healthcare practitioners.
+Healthcare Providers: Hospitals and clinics providing
+remote consultations.
+NGOs and Government Agencies: Organizations
+supporting healthcare initiatives in rural areas.
+Community Leaders: Influential figures in villages who
+can advocate for the device's use.
+Data Collection and Analysis: Practitioners need tools to collect
+and analyze health data from patients efficiently.
+Remote Consultation: The ability to send patient data to
+specialists for remote consultation and diagnosis is essential,
+especially in areas with limited access to cardiologists.
+(Image source : Canva)
+(Image source : Canva)
+CONCEPTUAL
+MAP (Synthesising)
+CONCEPTUAL FRAMEWORK
+Technology
+Cultural
+Connection
+Recent Advances in Wearable
+Sensing Technologies (Perez
+& Zeadally 2021)
+The Role of Health Technology
+in a Rural Environment
+(Doughty & Livingstone 2017)
+Design Brief
+(Problem, Stakeholders, Location,
+User, etc.)
+Leveraging IoT-Aware
+Technologies (Shumba et al.,
+2022)
+Direct
+Factors
+Indirect
+Factors
+RELEVANT
+PRECEDENTS
+(D-Heart n.d.)
+D-Heart Portable ECG Device
+Overview:
+Cardiotrack is a portable, rechargeable, and Bluetooth-enabled 12-lead
+ECG device designed for easy use in various settings, including rural
+areas. It features a long-lasting battery and enhanced signal connectivity,
+making it suitable for remote healthcare applications.
+Strengths:
+Portability
+Connectivity
+Battery Life
+Weaknesses:
+Complexity: The 12-lead setup may be complex for non-specialist
+users, requiring training for effective use.
+Cost: While portable, the cost of the device and its maintenance may
+still be prohibitive for widespread adoption in low-income rural areas.
+Data Management: Reliance on Bluetooth and internet connectivity
+may pose challenges in regions with poor network infrastructure.
+RELEVANT
+PRECEDENTS
+VivaLNK Wearable ECG Monitor
+Overview: VivaLNK offers a wearable ECG monitor designed for continuous
+cardiac monitoring. The device is lightweight, adhesive, and can be worn
+comfortably for extended periods, making it suitable for remote and rural
+healthcare applications.
+Strengths:
+Continuous Monitoring
+Comfort and Usability
+Data Integration
+Weaknesses:
+Battery Life: Continuous monitoring can drain the battery quickly, requiring
+frequent recharges.
+Cost: The cost of the device and its consumables (adhesive patches) may be
+prohibitive for widespread use in low-income rural areas.
+(Vivalink n.d.)
+PROTOTYPING
+(Prototype v1) (Prototype v2)
+After presenting the prototype in Assessment 1, I began working
+towards reducing the size and making it more wearable. I was able
+to shrink it’s size by removing connectors and tidying up the wiring.
+This prototype also performed realtime activity tracking based on
+small sample of training data.
+The initial prototype was a 3D-printed case covering the board and
+sensor, followed by testing digital e-ink displays due to their non-
+emissive properties. The primary purpose was to serve as a
+communication tool between the device and the user. Drawing
+inspiration from emotionally durable design principles, I opted to
+showcase animated emojis instead of data to convey the device's
+emotions.
+(Prototype v2.2) (Prototype v2.2)
+(Evolution of Prototype v2 to Prototype v3.2)
+(New processor and wiring to reduce size)
+After realising I could not reduce to size any further with the screen, I
+decided to experiment on a different direction. I chose to use a latest
+processor, and with help of AI, I was able to get a functional code to
+work with. This was also when I was curating interactions based on
+cultural context. I settled on a RGB light to replace screen, and added
+button and haptic feedback. I also experimented with attaching
+mechanism, as by this time I was trying to make device detachable for
+ease of use and maintance.
+(Prototype v3.1)
+PROCESS DIARY
+How can I address
+cultural safety?
+Handicrafts?
+Patterns from embroidery
+After fixing on the new smaller size and interactions, I worked on
+connecting this device with culture by using motifs from the
+regional handicrafts. Thru making interactive motifs, we can de-
+stigmatise
+medical device in rural villages. By this time I also upgraded led so
+that I could animate to create effects and signals that user can
+associate with. During this part I also experimented with finishes
+and color.
+(Evolution of Prototype v3.3 to v4)
+FINAL DESIGN
+Detaching mechanism and connections
+Magnets are used for wearing this device, which
+also serves as contact points for electrodes for
+ecg sensor. It is designed so that user can take
+out the device and easily wash their garment, and
+charge the device.
+Interactions
+Interactions of the device include haptics that
+can be used to alert user, button and rgb matrix
+that is used to communicate system status like
+when user needs to see doctor, or to reward
+user for goals are achieved . Powerful processor
+Device is powered by xiao esp32s3, a AI enabled
+board which runs a machine learning algorithm. It
+is connected to a 6axis IMU and an ECG sensor,
+and has haptic feedback.
+Real-time ECG and Activity Tracking
+With the help of ML on device, it can perform
+real time anomaly detection and live activity
+classification to alert user of any anomaly in
+advance.
+Motifs that lights up to communicate
+The motifs and colors for the light are selected
+from region, which helps to customise and locate
+the device within the context of region. This
+helps in de-stigmatising the healtcare by
+embedding the device within culture in rural
+India.
+Potential locations to attach the device
+BIBLIOGRAPHY
+D-Heart. (n.d.). D-Heartcare. Retrieved June 27, 2024, from https://www.d-heartcare.com/en-euDahiya
+E. S., Kalra, A. M., Lowe, A., & Anand, G. (2024). Wearable Technology for Monitoring Electrocardiograms (ECGs) in Adults: A Scoping Review. Sensors (14248220), 24(4), 1318.
+https://doi.org/10.3390/s24041318
+Doughty, K., & Livingstone, A. (2017). The Role of Technology in Addressing Health and Social Care Needs and Opportunities in a Rural Environment. The Journal of
+Corporate Citizenship, 68, 67–81. https://www.jstor.org/stable/26629191
+Kalra, A., Jose, A. P., Prabhakaran, P., Kumar, A., Agrawal, A., Roy, A., Bhargava, B., Tandon, N., & Prabhakaran, D. (2023). The burgeoning cardiovascular disease epidemic in
+Indians – perspectives on contextual factors and potential solutions. The Lancet Regional Health - Southeast Asia, 12, 100156. https://doi.org/10.1016/j.lansea.2023.100156
+Konwar, A. N., & Borse, V. (2020). Current status of point-of-care diagnostic devices in the Indian healthcare system with an update on COVID-19 pandemic. Sensors
+International, 1, 100015. https://doi.org/10.1016/j.sintl.2020.100015
+Maini, E., Venkateswarlu, B., Maini, B., & Marwaha, D. (2021). Machine learning–based heart disease prediction system for Indian population: An exploratory study done in
+South India. Medical Journal Armed Forces India. https://doi.org/10.1016/j.mjafi.2020.10.013
+BIBLIOGRAPHY
+Neri, L., Oberdier, M. T., van Abeelen, K. C. J., Menghini, L., Tumarkin, E., Tripathi, H., Jaipalli, S., Orro, A., Paolocci, N., Gallelli, I., Dall’Olio, M., Beker, A., Carrick, R. T., Borghi, C., &
+Halperin, H. R. (2023). Electrocardiogram Monitoring Wearable Devices and Artificial-Intelligence-Enabled Diagnostic Capabilities: A Review. Sensors, 23(10), 4805.
+https://doi.org/10.3390/s23104805
+Perez, A. J., & Zeadally, S. (2021). Recent Advances in Wearable Sensing Technologies. Sensors, 21(20), 6828. https://doi.org/10.3390/s21206828
+References24/72-Hour ECG Recorder with Screen. (n.d.). Wellue. Retrieved June 27, 2024, from https://getwellue.com/products/ecg-recorder-with-screen
+Shumba, A.
+-T., Montanaro, T., Sergi, I., Fachechi, L., De Vittorio, M., & Patrono, L. (2022). Leveraging IoT-Aware Technologies and AI Techniques for Real-Time Critical
+Healthcare Applications. Sensors, 22(19), 7675. https://doi.org/10.3390/s22197675
+Vivalink. (n.d.). Rural Healthcare. Vivalink. Retrieved June 27, 2024, from https://www.vivalink.com/rural-healthcare
+GANTT CHART - TEJAS PATEL
+DESIGN STUDIO 2
+WEEK 6 WEEK 7 WEEK 8 WEEK 9 WEEK 10 WEEK 11
+RESEARCH
+CONTEXT
+TECHNOLOGY
+CULTURE STUDY
+CONCEPT
+DEVELOPMENT
+DESIGN
+PROTOTYPE
+PHOTOGRAPHS
+DOCUMENTATION
+RENDERS
+POSTER
+DESIGNER
+STATEMENT
+REPORT
+PROJECT REPORT
+EXHIBITION
+PLANNING
+EXECUTION
+DESIGNER'S STATEMENT
+- TEJAS PATEL
+I am Tejas Patel, an Industrial/Product Designer based in Sydney. Born and raised in Gujarat, India, I was deeply
+influenced by my cultural heritage. My fascination with creating tangible objects led me to pursue a Bachelor's
+degree in Industrial Design. During my undergraduate studies, I discovered my passion for creating meaningful
+product interactions, which motivated me to further my education with a Masters in Design at UNSW.
+My design philosophy centers on creating meaningful solutions through creative problem-solving. While I adhere
+to the principle that form follows function, I also believe in the harmonious integration of form and function within
+a given context. This approach allows me to create designs that are not only functional but also culturally resonant
+and aesthetically pleasing.
+My final design project addresses the healthcare accessibility issues in rural India, where 60% of the population
+resides but only 30% of medical professionals practice. The project involves the development of a wearable, Al-
+powered ECG monitoring device. This med-tech innovation aims to bring healthcare to people instead of requiring
+them to seek it out, thus making healthcare more accessible, less overburdened, and destigmatized. Key features
+of the device include real-time ECG and activity monitoring, anomaly detection and user alerts, and a design
+inspired by the cultural aesthetics of the Kutch region in Gujarat, allowing the device to blend seamlessly into the
+local culture.
+The inspiration for this project stemmed from the stark disparity in healthcare accessibility between urban and
+rural India. By creating a device that integrates advanced medical technology with cultural sensitivity, the project
+aims to address the critical need for accessible healthcare in rural areas.
+DESIGNER'S STATEMENT
+- TEJAS PATEL
+The innovative aspects of my design project include real-time ECG and activity monitoring, providing immediate
+health insights, and an Al-powered system that can detect anomalies and alert users, potentially saving lives.
+Additionally, the design and form are inspired by the Kutch region's cultural aesthetics, helping to destigmatize
+health devices and encourage their use. The strengths of the project lie in its strong cultural connection, suitability
+for rural conditions with onboard processing capabilities, and the ability to enable remote health monitoring,
+reducing the need for frequent hospital visits. However, there are also weaknesses to consider, such as limited
+battery life, which may be insufficient for extended use in remote areas without reliable electricity, the initial cost of
+the device, which might be a barrier for widespread adoption in economically disadvantaged communities, and the
+challenges of ensuring the privacy and security of health data in a wearable device.
+One of the major sustainability considerations in my design process was the decision to make the wearable device
+detachable. According to the butterfly diagram from the Ellen MacArthur Foundation, the innermost loop is
+*share*. By designing the device to be detachable, it can be shared within the community, enhancing its
+sustainability. Additionally, this design choice protects the device when washing the garment, thereby extending
+its lifespan. Ethically, situating the device within the cultural context was paramount. A robust-looking medical
+device might discourage use, so the design was made to be culturally sensitive. Moreover, the user interactions and
+system flow were designed with the user's comfort and ease of use in mind, ensuring that the device is both
+effective and user-friendly.
+DESIGNER'S STATEMENT
+- TEJAS PATEL
+The sustainability and ethical considerations in my design process have reinforced my belief in the significant role
+and power of design in society. Designers have the responsibility to create solutions that are not only functional
+and aesthetically pleasing but also culturally sensitive and sustainable. In an increasingly uncertain future,
+designers must prioritize ethical considerations and sustainability to create products that positively impact society
+and the environment.
+This course has profoundly influenced my design process and philosophy. It has provided me with the tools and
+knowledge to approach design challenges with a holistic perspective, considering not only the functional and
+aesthetic aspects but also the cultural, ethical, and sustainability dimensions. For instance, the course content on
+sustainable design practices inspired the detachable feature of my wearable device. Additionally, the emphasis on
+user-centered design helped me create a product that is both culturally resonant and user-friendly.
+In conclusion, my journey through this course and the development of my final design project have been
+transformative. They have deepened my understanding of the power and responsibility of design in addressing
+real-world problems. As a designer, I am committed to creating solutions that are innovative, sustainable, and
+ethically sound, contributing positively to society and the environment.

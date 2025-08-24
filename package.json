@@ -1,0 +1,19 @@
+{
+  "name": "sehat-sathi-ui",
+  "version": "1.0.0",
+  "description": "Sehat Sathi MVP UI",
+  "main": "Sehat.html",
+  "scripts": {
+    "start": "live-server"
+  },
+  "keywords": [
+    "PWA",
+    "Health",
+    "MVP"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
