@@ -78,6 +78,19 @@
             box-sizing: border-box;
         }
 
+        /* Global scrollbar hiding */
+        html, body {
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none; /* Internet Explorer 10+ */
+        }
+
+        html::-webkit-scrollbar, 
+        body::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+            display: none;
+        }
+
         html {
             scroll-behavior: smooth;
             text-rendering: optimizeLegibility;
