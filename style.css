@@ -119,8 +119,8 @@
         .app-container {
             width: 100%;
             height: 100vh;
-            max-width: 390px;
-            max-height: 844px;
+            max-width: 600px;
+            max-height: 1200px;
             background: var(--background-gradient);
             border-radius: 0;
             box-shadow: none;
