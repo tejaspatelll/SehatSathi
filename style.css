@@ -173,7 +173,7 @@
         }
 
         /* Hide the notch on smaller screens */
-        @media (max-width: 399px) {
+        @media (max-width: 3990px) {
             .app-container::before {
                 display: none;
             }
@@ -190,7 +190,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.1) 0%, transparent 50%),
+            background: radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.1) 0%, transparent 50%),;
                         radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.1) 0%, transparent 50%),
                         radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.1) 0%, transparent 50%);
             pointer-events: none;
@@ -586,9 +586,9 @@
         }
 
         .actions-section .card.premium-card {
-            background: #1e293b !important;
-            border: 1px solid rgba(255, 255, 255, 0.1) !important;
-            color: #f8fafc !important;
+            background: var(--card-bg) !important;
+            border: 1px solid var(--border-color) !important;
+            color: var(--text-primary) !important;
         }
 
         .actions-grid {
@@ -735,9 +735,9 @@
         }
 
         .activity-section .card.premium-card {
-            background: #1e293b !important;
-            border: 1px solid rgba(255, 255, 255, 0.1) !important;
-            color: #f8fafc !important;
+            background: var(--card-bg) !important;
+            border: 1px solid var(--border-color) !important;
+            color: var(--text-primary) !important;
         }
 
         .activity-header {
@@ -2238,7 +2238,7 @@
             display: block;
             background: 
                 linear-gradient(rgba(0, 255, 136, 0.03) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(0, 255, 136, 0.03) 1px, transparent 1px);
+                linear-gradient(90deg, rgba(0, 255, 136, 0.03) 1px, transparent 1px);;
             background-size: 20px 20px;
         }
 
@@ -2250,7 +2250,7 @@
             bottom: 0;
             background: 
                 linear-gradient(rgba(0, 255, 136, 0.1) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(0, 255, 136, 0.1) 1px, transparent 1px);
+                linear-gradient(90deg, rgba(0, 255, 136, 0.1) 1px, transparent 1px);;
             background-size: 40px 40px;
             pointer-events: none;
         }
